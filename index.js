@@ -3,7 +3,7 @@ require('dotenv').config();
 const express = require('express');
 
 
-console.log('API Key:', process.env.OPENAI_API_KEY);
+
 const bodyParser = require('body-parser');
 const cors = require('cors');
 
